@@ -18,7 +18,7 @@ suspend fun getForecast(): String {
     delay(1000)
     return "Sunny"
 }
-    
+
 suspend fun getTemperature(): String {
     delay(1000)
     return "30\u00b0C"
